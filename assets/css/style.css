@@ -1,0 +1,245 @@
+/* font icons */
+
+@import url("./bootstrap.min.css");
+
+/* circle css */
+
+.circle {
+  height: calc(400px - -4rem);
+  max-width: 100vh;
+  margin-top: 24px;
+  overflow: hidden;
+}
+.circle .circle-part {
+  max-width: 400px;
+  max-height: 400px;
+  width: 100%;
+  height: 100%;
+  margin: 32px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  position: relative;
+}
+.circle .circle-center-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 30px solid rgba(0, 162, 211, 0.3);
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  max-width: 180px;
+  max-height: 180px;
+  width: 100%;
+  height: 100%;
+}
+.circle .circle-center-img {
+  width: 100%;
+  height: 100%;
+  object-fit: none;
+  background-color: #fff;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.circle .hw-inner {
+  border: 1px solid rgba(0, 162, 211, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  max-width: 300px;
+  max-height: 300px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.circle .hw-inner .hw-inner-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 0px 24.6044px rgba(4, 85, 96, 0.1);
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  transform: translate(16rem, 13rem);
+  -webkit-transform: translate(16rem, 13rem);
+  -moz-transform: translate(16rem, 13rem);
+  -ms-transform: translate(16rem, 13rem);
+  -o-transform: translate(16rem, 13rem);
+}
+.circle .hw-inner .hw-inner-item:nth-child(1) {
+  transform: translate(16rem, 13rem);
+  -webkit-transform: translate(16rem, 13rem);
+  -moz-transform: translate(16rem, 13rem);
+  -ms-transform: translate(16rem, 13rem);
+  -o-transform: translate(16rem, 13rem);
+}
+.circle .hw-inner .hw-inner-item:nth-child(2) {
+  transform: translate(7rem, 17rem);
+  -webkit-transform: translate(7rem, 17rem);
+  -moz-transform: translate(7rem, 17rem);
+  -ms-transform: translate(7rem, 17rem);
+  -o-transform: translate(7rem, 17rem);
+}
+.circle .hw-inner .hw-inner-item:nth-child(3) {
+  transform: translate(0rem, 13rem);
+  -webkit-transform: translate(0rem, 13rem);
+  -moz-transform: translate(0rem, 13rem);
+  -ms-transform: translate(0rem, 13rem);
+  -o-transform: translate(0rem, 13rem);
+}
+.circle .hw-inner .hw-inner-item:nth-child(4) {
+  transform: translate(0rem, 4rem);
+  -webkit-transform: translate(0rem, 4rem);
+  -moz-transform: translate(0rem, 4rem);
+  -ms-transform: translate(0rem, 4rem);
+  -o-transform: translate(0rem, 4rem);
+}
+.circle .hw-inner .hw-inner-item:nth-child(5) {
+  transform: translate(13rem, 0rem);
+  -webkit-transform: translate(13rem, 0rem);
+  -moz-transform: translate(13rem, 0rem);
+  -ms-transform: translate(13rem, 0rem);
+  -o-transform: translate(13rem, 0rem);
+}
+/* hw-outer */
+.circle .hw-outer {
+  max-width: 400px;
+  max-height: 400px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  border: 1px solid rgba(0, 162, 211, 0.1);
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.circle .hw-outer .hw-outer-div {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+.circle .hw-outer .hw-outer-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40px;
+  width: 40px;
+  box-shadow: 0px 0px 24.6044px rgba(4, 85, 96, 0.1);
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.circle .hw-outer .hw-outer-item:nth-child(1) {
+  transform: translate(23rem, 8rem);
+  -webkit-transform: translate(23rem, 8rem);
+  -moz-transform: translate(23rem, 8rem);
+  -ms-transform: translate(23rem, 8rem);
+  -o-transform: translate(23rem, 8rem);
+}
+.circle .hw-outer .hw-outer-item:nth-child(2) {
+  transform: translate(22rem, 17rem);
+  -webkit-transform: translate(22rem, 17rem);
+  -moz-transform: translate(22rem, 17rem);
+  -ms-transform: translate(22rem, 17rem);
+  -o-transform: translate(22rem, 17rem);
+}
+.circle .hw-outer .hw-outer-item:nth-child(3) {
+  transform: translate(14rem, 23rem);
+  -webkit-transform: translate(14rem, 23rem);
+  -moz-transform: translate(14rem, 23rem);
+  -ms-transform: translate(14rem, 23rem);
+  -o-transform: translate(14rem, 23rem);
+}
+.circle .hw-outer .hw-outer-item:nth-child(4) {
+  transform: translate(4rem, 21rem);
+  -webkit-transform: translate(4rem, 21rem);
+  -moz-transform: translate(4rem, 21rem);
+  -ms-transform: translate(4rem, 21rem);
+  -o-transform: translate(4rem, 21rem);
+}
+.circle .hw-outer .hw-outer-item:nth-child(5) {
+  transform: translate(-1rem, 10rem);
+  -webkit-transform: translate(-1rem, 10rem);
+  -moz-transform: translate(-1rem, 10rem);
+  -ms-transform: translate(-1rem, 10rem);
+  -o-transform: translate(-1rem, 10rem);
+}
+.circle .hw-outer .hw-outer-item:nth-child(6) {
+  transform: translate(3rem, 1rem);
+  -webkit-transform: translate(3rem, 1rem);
+  -moz-transform: translate(3rem, 1rem);
+  -ms-transform: translate(3rem, 1rem);
+  -o-transform: translate(3rem, 1rem);
+}
+.circle .hw-outer .hw-outer-item:nth-child(7) {
+  transform: translate(14rem, -1rem);
+  -webkit-transform: translate(14rem, -1rem);
+  -moz-transform: translate(14rem, -1rem);
+  -ms-transform: translate(14rem, -1rem);
+  -o-transform: translate(14rem, -1rem);
+}
+.circle .animate-rotate-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* circle animation */
+.anim-8s {
+  animation-duration: 20s !important;
+}
+.animate-spin-slow {
+  animation: spin-slow 30s linear infinite;
+  -webkit-animation: spin-slow 30s linear infinite;
+}
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-rotate-img {
+  -webkit-animation: rotate-img 30s linear infinite;
+  animation: rotate-img 30s linear infinite;
+}
+@keyframes rotate-img {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* circle css */
