@@ -508,3 +508,5 @@ dropzone.uploadFiles = function(files) {
     }
   }
 }
+
+
